@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کویزۆ</title>
+    <link rel="stylesheet" href="result.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="navbar ">
+                <div class="logo left">کویزۆ</div>
+                <div class="right">بەخێر بێی <span id="nameDisplay"></span></div>
+            </div>
+        </nav>
+    </header>
+    <div class="r_wrapper">
+
+        <div class="container">
+            <div class="img_container">
+                <img src="celebration.png" class="img_celeb" alt="">
+            </div>
+            <div class="body_wrapper">
+                <h3>پیرۆزە <span id="player">یاریزان</span></h3>
+                <h4>تۆ کۆی گشتی نمرەکەت  <span id="score">پۆینتە</span> لە کۆی ١٠٠ پۆینت</h4>
+                <h4>کۆی کاتی خایانراو :<span id="displayTime"></span></h4>
+            </div>
+            <div class="btn_wrapper">
+                <button class="btn" onclick="saveScore();" id="save">پۆینت سەیڤ بکە</button>
+                <button class="btn" onclick="playAgain();" id="playAgain">دوبارە یاری کردن</button>
+                <button class="btn" onclick="goHome();" id="Home">گەڕانەوە بۆ ماڵەوە</button>
+            </div>
+        </div>
+    </div>
+    <script src="result.js" defer></script>
+</body>
+
+</html>

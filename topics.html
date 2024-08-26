@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بابەتەکان</title>
+    <link rel="stylesheet" href="topic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- <script src="test.js" defer></script> -->
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="navbar flex_row ">
+                <div class="logo left">کویزۆ</div>
+                <div class="right">بەخێر بێی <span id="nameDisplay"></span></div>
+            </div>
+        </nav>
+    </header>
+    <div class="t_wrapper flex_row">
+        <div class="container">
+            <div class="card_wrap">
+                <div class="card one">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="space1.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>بۆشایی</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>بۆشایی </h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" id="spaceBtn" onclick="space()">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card two">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="Vedic Maths1.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>حسابات</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>حسابات</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. بۆ تەحەدای خۆت کلیک لە یاری ک بکە
+                            </p>
+                            <button class="btn card_btn" onclick="vedic();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card three">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="History.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>مێژوویی</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>مێژوویی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="hist();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card four">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="gs.png" alt=" Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>زانستی گشتی </h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>زانستی گشتی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="gs();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card five">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="Current Affairs.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>ئاینیی </h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>ئاینیی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="curra();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card six">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="nature.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>ژینگەیی</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>ژینگەیی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="nature();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card seven">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="Knowledge.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>دەروونناسی</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>دەروونناسی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="gk();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_wrap">
+                <div class="card eight">
+                    <div class="card_content card_front">
+                        <div class="card_head">
+                            <img src="fitness.png" alt="Dog" />
+                        </div>
+                        <div class="card_body">
+                            <h3>وەرزشی</h3>
+                        </div>
+                    </div>
+                    <div class="card_content card_back">
+                        <div class="card_head">
+                            <h3>وەرزشی</h3>
+                        </div>
+                        <div class="card_body">
+                            <p>ئەم کویزە لەسەر بنەمای تریڤیای پێدراو دامەزراوە کە پێکهاتووە لە ١٠ پرسیاری فرە هەڵبژاردن. کلیک لە یاری کردن بکە بۆ ئەوەی لە هاوڕێکانت ببەیتەوە بە بەدەستهێنانی نمرەی بەرز
+                            </p>
+                            <button class="btn card_btn" onclick="fitness();">یاری کردن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
