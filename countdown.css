@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212; /* Dark background for high contrast */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+}
+
+.countdown-container {
+    text-align: center;
+    background: #1e1e1e; /* Slightly lighter dark background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border: 2px solid #333;
+}
+
+#timer {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #ff6f61; /* Vibrant accent color */
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Subtle shadow for readability */
+}
+
+#myButton {
+    display: none; /* Initially hidden */
+    padding: 12px 24px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: #ff6f61; /* Match button color with timer */
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#myButton:hover {
+    background: #ff4a39; /* Darker shade for hover effect */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+#myButton:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
