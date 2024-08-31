@@ -1,6 +1,6 @@
 function getTargetTime() {
     const now = new Date();
-    let targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 2, 32, 0, 0); // 10:00 PM
+    let targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 2, 35, 0, 0); // 10:00 PM
 
     // If current time is past 10:00 PM, set target time to 10:00 PM the next day
     if (now.getTime() > targetTime.getTime()) {
