@@ -17,7 +17,7 @@ function Sub(e) {
     e.preventDefault()
     let user = document.querySelector("#user").value
     localStorage.setItem("name", user)
-    location.href = "topics.html"
+    location.href = "countdown.html"
 }
 
 
